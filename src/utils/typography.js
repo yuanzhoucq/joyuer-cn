@@ -7,11 +7,19 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
   'a': {
     color: '#555',
-    backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px, #1ca086 0px, #1ca086 2px, rgba(0, 0, 0, 0) 3px)`
+    backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px, #1ca086 0px, #1ca086 2px, rgba(0, 0, 0, 0) 3px)`,
+    transition: `0.15s`
   },
   'a:hover': {
     backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0px, #1ca086 0px, #1ca086 2px, rgba(0, 0, 0, 0) 3px)`,
-    backgroundColor: `rgba(28,160,134, 0.3)`
+    backgroundColor: `rgba(28,160,134, 0.3)`,
+    transition: `0.15s`
+  },
+  'pre': {
+    padding: '12px',
+    overflow: 'auto',
+    backgroundColor: '#f6f8fa',
+    borderRadius: '5px'
   }
 });
 
