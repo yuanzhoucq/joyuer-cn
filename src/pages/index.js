@@ -11,9 +11,6 @@ export default ({ data }) => {
         <p>{node.excerpt}</p>
       </div>
     ))}
-    {/*<div>*/}
-      {/*<img src="https://source.unsplash.com/random/800x200" alt=""/>*/}
-    {/*</div>*/}
   </div>
 )};
 
