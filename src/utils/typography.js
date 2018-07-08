@@ -20,6 +20,11 @@ fairyGateTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     overflow: 'auto',
     backgroundColor: '#f6f8fa',
     borderRadius: '5px'
+  },
+  'img': {
+    display: 'block',
+    margin: '0 auto',
+    maxWidth: '75%'
   }
 });
 
